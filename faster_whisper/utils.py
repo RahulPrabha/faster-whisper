@@ -21,6 +21,7 @@ _MODELS = {
     "large-v1": "guillaumekln/faster-whisper-large-v1",
     "large-v2": "guillaumekln/faster-whisper-large-v2",
     "large": "guillaumekln/faster-whisper-large-v2",
+    "large-v3": "bababababooey/faster-whisper-large-v3",
 }
 
 
@@ -141,3 +142,4 @@ class disabled_tqdm(tqdm):
     def __init__(self, *args, **kwargs):
         kwargs["disable"] = True
         super().__init__(*args, **kwargs)
+      
